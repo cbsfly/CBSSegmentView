@@ -15,6 +15,10 @@
 		C33592DF1CC2708C00D4ED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33592DD1CC2708C00D4ED7B /* LaunchScreen.storyboard */; };
 		C33592EA1CC2708C00D4ED7B /* cbsSegmentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33592E91CC2708C00D4ED7B /* cbsSegmentViewTests.m */; };
 		C33592F51CC2708C00D4ED7B /* cbsSegmentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33592F41CC2708C00D4ED7B /* cbsSegmentViewUITests.m */; };
+		C33593081CC2740100D4ED7B /* CbsSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C33593071CC2740100D4ED7B /* CbsSegmentView.m */; };
+		C335930B1CC285AF00D4ED7B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C335930A1CC285AF00D4ED7B /* FirstViewController.m */; };
+		C335930E1CC285C600D4ED7B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C335930D1CC285C600D4ED7B /* SecondViewController.m */; };
+		C33593111CC285DB00D4ED7B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33593101CC285DB00D4ED7B /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		C33592F01CC2708C00D4ED7B /* cbsSegmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cbsSegmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33592F41CC2708C00D4ED7B /* cbsSegmentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cbsSegmentViewUITests.m; sourceTree = "<group>"; };
 		C33592F61CC2708C00D4ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33593061CC2740100D4ED7B /* CbsSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CbsSegmentView.h; sourceTree = "<group>"; };
+		C33593071CC2740100D4ED7B /* CbsSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CbsSegmentView.m; sourceTree = "<group>"; };
+		C33593091CC285AF00D4ED7B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C335930A1CC285AF00D4ED7B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C335930C1CC285C600D4ED7B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C335930D1CC285C600D4ED7B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C335930F1CC285DB00D4ED7B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C33593101CC285DB00D4ED7B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		C33592CE1CC2708C00D4ED7B /* cbsSegmentView */ = {
 			isa = PBXGroup;
 			children = (
+				C33593051CC273BF00D4ED7B /* Source */,
 				C33592D21CC2708C00D4ED7B /* AppDelegate.h */,
 				C33592D31CC2708C00D4ED7B /* AppDelegate.m */,
 				C33592D51CC2708C00D4ED7B /* ViewController.h */,
@@ -110,6 +123,12 @@
 				C33592DD1CC2708C00D4ED7B /* LaunchScreen.storyboard */,
 				C33592E01CC2708C00D4ED7B /* Info.plist */,
 				C33592CF1CC2708C00D4ED7B /* Supporting Files */,
+				C33593091CC285AF00D4ED7B /* FirstViewController.h */,
+				C335930A1CC285AF00D4ED7B /* FirstViewController.m */,
+				C335930C1CC285C600D4ED7B /* SecondViewController.h */,
+				C335930D1CC285C600D4ED7B /* SecondViewController.m */,
+				C335930F1CC285DB00D4ED7B /* ThirdViewController.h */,
+				C33593101CC285DB00D4ED7B /* ThirdViewController.m */,
 			);
 			path = cbsSegmentView;
 			sourceTree = "<group>";
@@ -138,6 +157,15 @@
 				C33592F61CC2708C00D4ED7B /* Info.plist */,
 			);
 			path = cbsSegmentViewUITests;
+			sourceTree = "<group>";
+		};
+		C33593051CC273BF00D4ED7B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C33593061CC2740100D4ED7B /* CbsSegmentView.h */,
+				C33593071CC2740100D4ED7B /* CbsSegmentView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C335930E1CC285C600D4ED7B /* SecondViewController.m in Sources */,
 				C33592D71CC2708C00D4ED7B /* ViewController.m in Sources */,
+				C33593081CC2740100D4ED7B /* CbsSegmentView.m in Sources */,
+				C335930B1CC285AF00D4ED7B /* FirstViewController.m in Sources */,
 				C33592D41CC2708C00D4ED7B /* AppDelegate.m in Sources */,
 				C33592D11CC2708C00D4ED7B /* main.m in Sources */,
+				C33593111CC285DB00D4ED7B /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
