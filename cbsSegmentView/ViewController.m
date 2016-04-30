@@ -22,10 +22,6 @@
     NSArray *titleArray = @[@"first", @"second", @"third", @"first", @"second", @"third"];
     NSArray *viewArray = @[@"FirstViewController", @"SecondViewController", @"ThirdViewController", @"FirstViewController", @"SecondViewController", @"ThirdViewController"];
     self.segmentView = [[CbsSegmentView alloc] initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, self.view.bounds.size.height - 20) title:titleArray view:viewArray type:CbsSegmentHeaderTypeScroll];
-    
-    
-    self.segmentView.headerColor = [UIColor purpleColor];
-    
     self.segmentView.delegate = self;
     [self.view addSubview:self.segmentView];
 }

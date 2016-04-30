@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, CbsSegmentHeaderType) {
-    CbsSegmentHeaderTypeFixed,
-    CbsSegmentHeaderTypeScroll
+    CbsSegmentHeaderTypeFixed,//标签栏固定
+    CbsSegmentHeaderTypeScroll//标签栏可滚动
 };
 
 
@@ -22,13 +22,13 @@ typedef NS_ENUM(NSInteger, CbsSegmentHeaderType) {
 
 @interface CbsSegmentView : UIView
 @property (nonatomic, weak) id<CbsSegmentViewDelegate> delegate;
-//标签栏颜色
+//标签栏颜色，默认白色
 @property (nonatomic, strong) UIColor *headerColor;
-//非选中状态下标签字体颜色
+//非选中状态下标签字体颜色，默认黑色
 @property (nonatomic, strong) UIColor *titleColor;
-//选中标签字体颜色
+//选中标签字体颜色，默认蓝色
 @property (nonatomic, strong) UIColor *titleSelectedColor;
-//选中标签底部划线颜色
+//选中标签底部划线颜色，默认蓝色
 @property (nonatomic, strong) UIColor *bottomLineColor;
 
 //初始化方法
