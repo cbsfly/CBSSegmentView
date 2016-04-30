@@ -1,5 +1,11 @@
 # CBSSegmentView
 
+## 效果
+
+![wait](https://github.com/cbsfly/cbsfly.github.io/raw/master/images/gallery1/segment1.gif)
+
+![wait](https://github.com/cbsfly/cbsfly.github.io/raw/master/images/gallery1/segment2.gif)
+
 ## 支持CocoaPods
 
 `pod 'CBSSegmentView'`
