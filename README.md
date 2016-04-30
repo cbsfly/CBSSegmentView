@@ -38,5 +38,7 @@ type有两种
 	- (void)didSelectSegmentIndex:(NSInteger)index;
 
 
+### 自己写的部分源码解析点[这里](http://cbsfly.github.io/ios/segmentview)
 
+有帮助的话希望可以star一下，有什么意见也希望留言告诉我，我会改正。
 
